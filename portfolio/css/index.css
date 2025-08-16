@@ -1,9 +1,17 @@
 .container {
-    background-color: aqua;
+    /* background-color: aqua;
     padding: 15px 20px;
     border: 1px solid rgb(204, 204, 204);
     max-width: 850px;
-    margin: auto;
+    margin: auto; */
+    max-width: 750px;
+    margin: 50px auto;
+    background-color: aqua;
+    background-size: cover;
+    padding: 35px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border: none;
 }
 body{
     background-color: white;
@@ -13,7 +21,7 @@ header{
     font-weight: 700; 
     text-align: center;
     a{
-    margin-right: 60px;
+    margin-right: 35px;
     font-family: 'Segoe UI';
     text-decoration: none;
     }
