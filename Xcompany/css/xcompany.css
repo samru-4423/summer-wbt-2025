@@ -1,5 +1,5 @@
 body{
-    margin: 250px 400px 250px 400px;
+    margin: 5% 25% 10% 25%;
     border: 2px solid black;
 }
 
@@ -9,17 +9,16 @@ body{
     justify-content: space-between;
 }
 .image img{
-    margin-top: -0px;
     padding: 10px;
-    width: 130px;
-    height: 50px;
+    width: 75%;
+    height: 30%;
 }
 ul{
     display: flex;
 }
 li{
     list-style: none;
-    padding: 5px;
+    padding: 0 10px 0 10px;
 }
 .line{
     border-right: 1px solid black;
@@ -30,8 +29,8 @@ li{
 
 .body p{
     font-weight: 600;
-    padding: 20px;
-    margin-bottom: 60px;
+    padding: 5%;
+    margin-bottom: 8%;
 }
 
 .bottom p{

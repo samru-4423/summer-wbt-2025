@@ -1,5 +1,5 @@
 body{
-    margin: 5% 15% 10% 15%;
+    margin: 5% 25% 10% 25%;
     border: 2px solid black;
 }
 
@@ -33,7 +33,7 @@ body{
     display: flex;
 }
 .nav{
-    margin: -0.9% 0% 0.9% 0%;
+    margin: -1.2% 0% 1% 0%;
     padding-right: 1%;
     padding-bottom: 2%;
     border-right: 2px solid black;
@@ -50,10 +50,44 @@ body{
     width: 95%;
 }
 
-.navbody p{
-    font-size: 1.2em;
-    font-weight: 700;
-    margin: 15px 0 0 15px;
+.profile {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+    width: 35%;
+}
+
+.navbody{
+    border: 1px solid black;
+    margin: 2% 0% 3% 2%;
+    padding-right: 100%;
+}
+.vp-head h3{
+    margin: -5% 0 4% 5%;
+    width: 60%;
+    backdrop-filter: blur(100px);
+    display: flex;
+    background: white;
+}
+.info{
+    justify-content: space-between;
+
+}
+.info .name{
+    padding-left: 5%;
+    padding-right: 10%;
+    display: flex;
+}
+.submit{
+    padding-left: 5%;
+    padding-bottom: 7%;
+    input{
+        color: black;
+    }
+}
+.hr2{
+    margin-left: 5%;
+    width: 170%;
 }
 
 .bottom p{
