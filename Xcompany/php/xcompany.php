@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>X Company</title>
+    <link rel="stylesheet" href="../css/xcompany.css">
 </head>
 <body>
-    <?php
-
-    ?>
-   
-        <div class="head">
-            <img src="image/" alt="">
-            <p>hello</p>
+    <div class="head">
+        <div class="image">
+            <img src="../image/xcompnay.png" alt="">
         </div>
+        <div class="link">
+            <ul>
+                <li class="line"><a href="#">Home</a></li>
+                <li class="line"><a href="xcomlogin.php">Login</a></li>
+                <li><a href="xcomreg.php">Registration</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="hr">
+
+    <div class="body">
+        <p>Welcome to xCompany</p>
+    </div>
+    
+    <hr class="hr">
+
+    <div class="bottom">
+        <p>Copyright &copy; 2017</p>
+    </div>
    
 </body>
 </html>

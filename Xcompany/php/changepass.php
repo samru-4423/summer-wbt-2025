@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Company</title>
+    <link rel="stylesheet" href="../css/changepass.css">
+</head>
+<body>
+    <div class="head">
+        <div class="image">
+            <img src="../image/xcompnay.png" alt="">
+        </div>
+        <div class="link">
+            <ul class="ul-head">
+                <li class="line">Logged in as <a href="viewprofile.php">Bob</a></li>
+                <li><a href="xcomlogin.php">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="hr">
+
+    <div class="body">
+        <div class="nav">
+            <div class="navhead">
+                <h3>Account</h3>
+            </div>
+            <hr class="hr1">
+            <div class="list">
+                <ul class="ul-nav">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="viewprofile.php">View Profile</a></li>
+                    <li><a href="editprofile.php">Edit Profile</a></li>
+                    <li><a href="changepic.php">Change Profile Picture</a></li>
+                    <li><a href="#">Change Password</a></li>
+                    <li><a href="xcomlogin.php">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="change">
+            <div class="change-head">
+                <h2>CHANGE PASSWORD</h2>
+            </div>
+            <div class="info">
+                <div class="name">
+                    Current Password <span>: <input type="password"></span>
+                </div>
+                <div class="name">
+                    New Password <span>: <input type="password"></span>
+                </div>
+                <div class="name">
+                    Retype New Password <span>: <input type="password"></span>
+                </div>
+                <hr class="hr2">
+                <button>Submit</button>
+            </div>
+        </div>
+    </div>
+    
+    <hr class="hr">
+
+    <div class="bottom">
+        <p>Copyright &copy; 2017</p>
+    </div>
+   
+</body>
+</html>

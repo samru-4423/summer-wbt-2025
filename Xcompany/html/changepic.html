@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>X Company</title>
-    <link rel="stylesheet" href="../css/xcomdashboard.css">
+    <link rel="stylesheet" href="../css/changepic.css">
 </head>
 <body>
     <div class="head">
@@ -29,17 +29,25 @@
             <hr class="hr1">
             <div class="list">
                 <ul class="ul-nav">
-                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="xcomdashboard.html">Dashboard</a></li>
                     <li><a href="viewprofile.html">View Profile</a></li>
                     <li><a href="editprofile.html">Edit Profile</a></li>
-                    <li><a href="changepic.html">Change Profile Picture</a></li>
-                    <li><a href="">Change Password</a></li>
-                    <li><a href="">Logout</a></li>
+                    <li><a href="#">Change Profile Picture</a></li>
+                    <li><a href="changepass.html">Change Password</a></li>
+                    <li><a href="xcomlogin.html">Logout</a></li>
                 </ul>
             </div>
         </div>
-        <div class="navbody">
-            <p>Welcome Bob</p>
+        <div class="change">
+            <div class="change-head">
+                <h2>PROFILE PICTURE</h2>
+            </div>
+            <div class="profileicon">
+                <img src="../image/profileicon.png" alt=""><br>
+                <input type="file" id="myFile" name="filename">
+                <hr class="hr2">
+                <input type="submit">
+            </div>
         </div>
     </div>
     

@@ -1,0 +1,82 @@
+body{
+    margin: 5% 20% 10% 20%;
+    border: 2px solid black;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image img{
+    padding: 10px;
+    width: 75%;
+    height: 30%;
+}
+.ul-head{
+    display: flex;
+    li{
+        list-style: none;
+        padding: 0 7px 0 7px;
+    }
+}
+
+.line{
+    border-right: 1px solid black;
+}
+.hr{
+    border: 1.5px solid black;
+    margin-top: -1%;
+}
+
+.body{
+    display: flex;
+}
+.nav{
+    margin: -0.9% 0% 0.9% 0%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    border-right: 2px solid black;
+}
+
+.navhead h3{
+    font-weight: 700;
+    padding: 0% 0 0% 7%;
+}
+
+.hr1{
+    margin-top: -10px;
+    margin-left: 5%;
+    width: 95%;
+}
+
+.change{
+    margin: 2%;
+    border: 1.5px solid black;
+    padding-right: 45%;
+}
+.change-head h2{
+    font-size: 1.2em;
+    margin-top: -12px;
+    margin-left: 3%;
+    padding: 1%;
+    width: 70%;
+    background-color: white;
+}
+.profileicon{
+    padding-left: 3%;
+}
+.profileicon img{
+    width: 40%;
+    height: 40%;
+}
+.hr2{
+    width: 230%;
+}
+.profileicon input{
+    color: black;
+}
+.bottom p{
+    text-align: center;
+
+}

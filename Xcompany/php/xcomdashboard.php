@@ -13,8 +13,8 @@
         </div>
         <div class="link">
             <ul class="ul-head">
-                <li class="line">Logged in as <a href="#">Bob</a></li>
-                <li><a href="xcomlogin.html">Logout</a></li>
+                <li class="line">Logged in as <a href="viewprofile.php">Bob</a></li>
+                <li><a href="xcomlogin.php">Logout</a></li>
             </ul>
         </div>
     </div>
@@ -30,11 +30,11 @@
             <div class="list">
                 <ul class="ul-nav">
                     <li><a href="#">Dashboard</a></li>
-                    <li><a href="viewprofile.html">View Profile</a></li>
-                    <li><a href="editprofile.html">Edit Profile</a></li>
-                    <li><a href="changepic.html">Change Profile Picture</a></li>
-                    <li><a href="">Change Password</a></li>
-                    <li><a href="">Logout</a></li>
+                    <li><a href="viewprofile.php">View Profile</a></li>
+                    <li><a href="editprofile.php">Edit Profile</a></li>
+                    <li><a href="changepic.php">Change Profile Picture</a></li>
+                    <li><a href="changepass.php">Change Password</a></li>
+                    <li><a href="xcomlogin.php">Logout</a></li>
                 </ul>
             </div>
         </div>
