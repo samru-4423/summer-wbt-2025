@@ -1,0 +1,71 @@
+body{
+    margin: 80px 40px 80px 40px;
+    border: 2px solid black;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image img{
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+.line{
+    border-right: 1px solid black;
+}
+.hr{
+    border: 1.5px solid black;
+}
+.body{
+    margin: 50px 150px 30px 150px;
+    border: 1.5px solid black;
+}
+
+.log h2{
+    margin: -15px 0 0 15px;
+    padding-left: 3px;
+    width: 22%;
+    backdrop-filter: blur(100px);
+    background-color: white;
+    display: flex;
+}
+
+.info .name{
+    padding-left: 15px;
+    padding-right: 97px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rm{
+    padding-left: 12px;
+}
+
+.btn{
+    padding-left: 12px;
+}
+
+.btn input{
+    color: black;
+}
+
+.hr1{
+    min-width: 5px;
+    max-width: 350px;
+}
+
+.bottom p{
+    text-align: center;
+
+}

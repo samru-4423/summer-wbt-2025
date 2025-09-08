@@ -1,0 +1,121 @@
+body{
+    margin: 80px 40px 80px 40px;
+    border: 2px solid black;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image img{
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+.line{
+    border-right: 1px solid black;
+}
+.hr{
+    border: 1.5px solid black;
+}
+
+.body{
+    margin: 50px 150px 30px 150px;
+    border: 1px solid black;
+}
+
+.h2 h2{
+    margin: -15px 0 0 15px;
+    width: 52%;
+    backdrop-filter: blur(100px);
+    display: flex;
+    background: white;
+}
+
+.info .name{
+    padding-left: 15px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hr1{
+    min-width: 5px;
+    max-width: 350px;
+}
+.gen{
+    margin: 15px;
+    border: 1px solid black;
+}
+
+.gender h2{
+    font-weight: 100;
+    font-size: 17px;
+    margin: -10px 0 0 15px;
+    padding-left: 3px;
+    width: 15%;
+    backdrop-filter: blur(100px);
+    background-color: white;
+    display: flex;
+}
+
+.genopt{
+    padding-left: 15px;
+}
+
+.dob{
+    margin: 15px;
+    border: 1px solid black;
+}
+
+.DOB h2{
+    font-weight: 100;
+    font-size: 17px;
+    margin: -10px 0 0 15px;
+    padding-left: 3px;
+    width: 27%;
+    backdrop-filter: blur(100px);
+    background-color: white;
+    display: flex;
+}
+
+.dobopt{
+    padding-left: 15px;
+    display: flex;
+}
+.dobopt input{
+    width: 40px;
+    height: 12px;
+    margin-bottom: 10px;
+}
+.dobopt span{
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.button{
+    display: flex;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.button input{
+    width: 15%;
+    height: 20px;
+    color: black;
+    margin-right: 5px;
+}
+
+.bottom p{
+    text-align: center;
+
+}

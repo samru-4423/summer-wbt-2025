@@ -1,0 +1,40 @@
+body{
+    margin: 250px 400px 250px 400px;
+    border: 2px solid black;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image img{
+    margin-top: -0px;
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+.line{
+    border-right: 1px solid black;
+}
+.hr{
+    border: 1.5px solid black;
+}
+
+.body p{
+    font-weight: 600;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.bottom p{
+    text-align: center;
+
+}
